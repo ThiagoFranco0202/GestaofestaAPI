@@ -5,7 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
-
+//Entidade da aplicação cujo cada convidado terá um Id, um nome, uma quantidade de acompanhantes e seu status de confirmação
 @Entity
 @Table(name = "festa")
 public class Convidado {
